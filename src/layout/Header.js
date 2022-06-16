@@ -25,9 +25,9 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 // Font Awesome Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faIndustry } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(faGraduationCap);
+library.add(faIndustry);
 
 import ColorModeContext from '../components/ColorModeContext';
 import CustomButton from '../components/CustomButton';
@@ -84,7 +84,7 @@ const Header = ({ onSidebarOpen }) => {
                                 }}
                             >
                                 <FontAwesomeIcon 
-                                    icon={faGraduationCap} 
+                                    icon={faIndustry} 
                                     style={{ 
                                         color: theme.palette.common.white, 
                                         height: 30, 
@@ -98,13 +98,13 @@ const Header = ({ onSidebarOpen }) => {
                                 sx={{ 
                                     flexGrow: 1,
                                     color: theme.palette.text.primary,
-                                    fontFamily: '"Love Ya Like A Sister", cursive',
+                                    fontFamily: '"Tiro Gurmukhi",serif',
                                     fontWeight: 'bold',
                                     textDecoration: 'none',
                                     display: { md: 'inline', xs: 'none' }
                                 }}
                             >
-                                Bob's Programming Academy
+                                Wanho Industries Indonesia
                             </Typography>
                         </IconButton>
                     </Link>

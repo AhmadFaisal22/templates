@@ -61,7 +61,7 @@ const About = () => {
                             marginTop={4}
                             marginBottom={6}
                         >
-                            We help software developers learn new skills, gain more experience and create excellent applications.
+                        Wanho Industries Indonesia
                         </Typography>
                     </Box>
                     <Grid container spacing={4}>

@@ -9,6 +9,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
+import { ListItem } from '@mui/material';
 
 const Footer = () => {
     const theme = useTheme();
@@ -41,6 +42,20 @@ const Footer = () => {
                                         padding: 0
                                     }}
                                 >
+                                    <ListItemButton component='a' href='#'>
+                                        <ListItemText
+                                        primary={
+                                            <Typography 
+                                                variant='body2'
+                                                color={theme.palette.text.secondary}
+                                            >
+                                                this is footer
+                                            </Typography>
+                                            }
+                                        />
+                                        
+                                    </ListItemButton>
+
                                     <ListItemButton component='a' href='#'>
                                         <ListItemText 
                                             primary={
