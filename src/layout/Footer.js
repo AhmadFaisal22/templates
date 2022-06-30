@@ -9,11 +9,9 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
-import { ListItem } from '@mui/material';
 
 const Footer = () => {
     const theme = useTheme();
-    
 
     return (
         <React.Fragment>
@@ -43,20 +41,6 @@ const Footer = () => {
                                         padding: 0
                                     }}
                                 >
-                                    <ListItemButton component='a' href='#'>
-                                        <ListItemText
-                                        primary={
-                                            <Typography 
-                                                variant='body2'
-                                                color={theme.palette.text.secondary}
-                                            >
-                                                this is footer
-                                            </Typography>
-                                            }
-                                        />
-                                        
-                                    </ListItemButton>
-
                                     <ListItemButton component='a' href='#'>
                                         <ListItemText 
                                             primary={
@@ -110,28 +94,28 @@ const Footer = () => {
                                                 variant='body2'
                                                 color={theme.palette.text.secondary}
                                             >
-                                                Photo by
+                                                Wanho Info
                                                 {' '}
                                                 <Link
-                                                    href='https://pixabay.com/users/marlyneart-15261801'
-                                                    alt='Martine Auvray'
+                                                    href='#'
+                                                    alt='Wanho Industries'
                                                     target='_blank'
                                                     rel='noreferrer'
                                                     color={theme.palette.text.secondary}
                                                 >
-                                                    Martine Auvray
+                                                    Industries Diecast
                                                 </Link>
                                                 {' '}
                                                 on
                                                 {' '} 
                                                 <Link 
-                                                    href='https://pixabay.com/photos/dog-containment-telework-bichon-4977599/'
-                                                    alt='Pixabay'
+                                                    href='#'
+                                                    alt='Wanho'
                                                     target='_blank'
                                                     rel='noreferrer'
                                                     color={theme.palette.text.secondary}
                                                 >
-                                                    Pixabay
+                                                    Wan-ho
                                                 </Link>.
                                             </Typography>
                                         }

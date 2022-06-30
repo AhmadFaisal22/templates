@@ -50,7 +50,7 @@ const Hero = () => {
                                             align='center'
                                             marginBottom={3}
                                         >
-                                            Bob's Programming Academy
+                                            Wanho Industries Indonesia
                                         </Typography>
                                     </Box>
                                     <Box marginBottom={3}>
@@ -60,7 +60,7 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='justify'
                                         >
-                                            In Bob's Programming Academy, we help both aspiring and established software developers gain more experience, take their skills to the next level and create excellent applications.
+                                            Wanho Industries Indonesia is a factory Die cast in Batang, Central Java, Indonesia.
                                         </Typography>
                                     </Box>
                                     <HeroButtons />
@@ -120,7 +120,7 @@ const Hero = () => {
                                         >
                                             <Box 
                                                 component={LazyLoadImage}
-                                                src='/images/bg.jpg'
+                                                src='/images/wanho.jpg'
                                                 alt='Background Image'
                                                 effect='blur'
                                                 height={{ xs: 'auto', md: 1 }}

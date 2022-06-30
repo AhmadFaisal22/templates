@@ -73,7 +73,7 @@ const Sidebar = ({ open, onClose }) => {
                                     textDecoration='none'
                                     flexGrow={1}
                                 >
-                                    Bob's Programming Academy
+                                    Wanho Industries Indonesia
                                 </Typography>
                             </IconButton>
                         </Link>

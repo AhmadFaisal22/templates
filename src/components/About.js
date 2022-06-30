@@ -10,6 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 
+
 const About = () => {
     const theme = useTheme();
 
@@ -41,6 +42,7 @@ const About = () => {
                 paddingX={2}
                 paddingY={{ xs: 4, sm: 6, md: 8 }}
             >
+               
                 <Box>
                     <Box marginBottom={4}>
                         <Typography
@@ -64,6 +66,7 @@ const About = () => {
                         Wanho Industries Indonesia
                         </Typography>
                     </Box>
+                    
                     <Grid container spacing={4}>
                         {about.map((item, i) => (
                             <Grid item xs={12} sm={6} md={4} key={i}>
