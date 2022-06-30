@@ -165,24 +165,24 @@ const Header = ({ onSidebarOpen }) => {
                             }
                         </IconButton>
                     </Box>
-                    <Divider
+                    {/* <Divider
                         orientation='vertical'
                         sx={{ 
                             height: 32, 
                             mx: 2,
                             display: { lg: 'flex', md: 'none', xs: 'none' } 
                         }} 
-                    />
+                    /> */}
                     <Box sx={{ display: { lg: 'flex', md: 'none', xs: 'none' } }}>
-                        <IconButton 
+                        {/* <IconButton 
                             aria-label='YouTube' 
                             color='primary'
                             href='#'
                             target='_blank'
                         >
                             <YouTubeIcon fontSize='large' />
-                        </IconButton>
-                        <IconButton 
+                        </IconButton> */}
+                        {/* <IconButton 
                             aria-label='LinkedIn' 
                             color='primary'
                             href='#'
@@ -197,7 +197,7 @@ const Header = ({ onSidebarOpen }) => {
                             target='_blank'
                         >
                             <InstagramIcon fontSize='large' />
-                        </IconButton>
+                        </IconButton> */}
                     </Box>
                     {theme.palette.mode === 'dark' && <Divider />}
                 </Toolbar>
