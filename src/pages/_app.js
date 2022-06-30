@@ -55,8 +55,8 @@ const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache }) =>
             <Head>
                 <meta charSet='utf-8' />
                 <meta content='minimum-scale=1, initial-scale=1, width=device-width' name='viewport' />
-                <meta name='description' content="Bob's Programming Academy" />
-                <meta name='keywords' content='programming, python, javascript, portfolio, website' />
+                <meta name='description' content="Wanho Industries Indonesia" />
+                <meta name='keywords' content='Wanho Die Cast Factory Industries' />
                 <title>Wanho Industries Indonesia</title>
             </Head>
             <ColorModeContext.Provider value={colorMode}>
