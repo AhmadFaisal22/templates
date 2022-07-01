@@ -1,8 +1,1 @@
-{
-  "../components/Contact.js -> ./Map": {
-    "id": "../components/Contact.js -> ./Map",
-    "files": [
-      "static/chunks/src_components_Map_js.js"
-    ]
-  }
-}
+{}
