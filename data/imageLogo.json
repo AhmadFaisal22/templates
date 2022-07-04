@@ -1,7 +1,24 @@
 {
     "Logo":[
         {
-        
+            "id"    :"1",
+            "name"  :"LDC",
+            "image" : "ldc.png"
+        },
+        {
+            "id"    :"2",
+            "name"  :"BOBCAT",
+            "image" : "bobcat.png"
+        },
+        {
+            "id"    : "3",
+            "name"  : "SPECCAST",
+            "image" : "speccast.png"
+        },
+        {
+            "id"    : "4",
+            "name"  : "KYOSHO",
+            "image" : "kyosho.png"
         }
     ]
 }

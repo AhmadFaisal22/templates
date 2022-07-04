@@ -15,11 +15,10 @@ const Home = () => {
             <Hero/>
             <Carousel>
                 {images.map(({ about, heading, url })=>{
-                    return 
-                    <div>
+                    return <div>
                     <img src={url} />
                     {/* <p className="legend">{about}</p> */}
-                    </div>
+                 </div>
                 })}
             </Carousel>
             <About />
