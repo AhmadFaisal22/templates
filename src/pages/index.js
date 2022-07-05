@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { images } from '../../data/imageData.json'
+import { logo } from '../../data/imageLogo.json'
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Hero from '../components/Hero';
@@ -23,6 +24,13 @@ const Home = () => {
             </Carousel>
             <About />
             <Projects />
+            <Carousel>
+                {logo.map(({id,name,image})=>{
+                    return <div class="image">
+                    <img src={image}/>
+                    </div>
+                })}    
+            </Carousel>
             <Technologies />
             <Contact />
         </div>
