@@ -24,13 +24,6 @@ const Home = () => {
             </Carousel>
             <About />
             <Projects />
-            <Carousel>
-                {logo.map(({id,name,image})=>{
-                    return <div class="image">
-                    <img src={image}/>
-                    </div>
-                })}    
-            </Carousel>
             <Technologies />
             <Contact />
         </div>
