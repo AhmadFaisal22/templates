@@ -1104,7 +1104,7 @@ module.exports = JSON.parse('{"images":[{"url":"https://images.unsplash.com/phot
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"logo":[{"id":"1","name":"LDC","image":"ldc.png"},{"id":"2","name":"BOBCAT","image":"bobcat.png"},{"id":"3","name":"SPECCAST","image":"speccast.png"},{"id":"4","name":"KYOSHO","image":"kyosho.png"}]}');
+module.exports = JSON.parse('{"logo":[{"id":"1","name":"LDC","image":"public/images/ldc.png"},{"id":"2","name":"BOBCAT","image":"public/images/bobcat.png"},{"id":"3","name":"SPECCAST","image":"public/images/speccast.png"},{"id":"4","name":"KYOSHO","image":"public/images/kyosho.png"}]}');
 
 /***/ })
 
